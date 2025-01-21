@@ -1,0 +1,20 @@
+.banner {
+    height: 100vh;
+    background-image: url('../../assets/images/geologist-controls-oil-production-oil-fields-russia.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+}
+
+.banner .btn-primary {
+    background-color: var(--color-light-blue);
+    border-color: var(--color-light-blue);
+}
+
+.banner .btn-primary:hover {
+    background-color: var(--color-dark-blue);
+    border-color: var(--color-dark-blue);
+}
