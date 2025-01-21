@@ -1,5 +1,5 @@
 import './Navbar.css';
-import logo from '../../assets/logo-technologies-04.svg';
+import logo from '../../assets/images/logo-technologies-04.svg';
 
 const Navbar: React.FC = () => {
     return (
