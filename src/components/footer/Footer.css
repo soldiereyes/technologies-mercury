@@ -8,18 +8,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
-    position: relative; /* Para não sobrepor conteúdo */
+    align-items: center;
+    position: relative;
     width: 100%;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between; /* Espaçamento entre logo e links */
+    justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
     width: 100%;
-    max-width: 1200px; /* Limita a largura máxima */
+    max-width: 1200px;
 }
 
 .footer-left {
@@ -58,7 +58,7 @@
 }
 
 .footer-links ul li a:hover {
-    color: #ffd700; /* Amarelo destaque */
+    color: #ffd700;
 }
 
 .sub-links {
@@ -72,6 +72,6 @@
     text-align: center;
     font-size: 0.8rem;
     color: #aaa;
-    border-top: 1px solid #004bb5; /* Linha separadora */
+    border-top: 1px solid #004bb5;
     padding-top: 1rem;
 }
