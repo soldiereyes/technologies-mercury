@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/Navigo-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/Navigo-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/Navigo-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/Navigo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/Navigo-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/Navigo-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/Navigo-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Navigo', Arial, sans-serif;
+    background-color: var(--color-light-gray);
+    color: var(--color-dark-gray);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-dark-blue);
+}
