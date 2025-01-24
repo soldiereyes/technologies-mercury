@@ -1,0 +1,21 @@
+
+.statistics-section {
+    position: relative;
+    margin-top: 50px;
+    padding: 3rem 0;
+    background-color: var(--color-white);
+    z-index: 1;
+}
+
+.stat-number {
+    font-family: 'Navigo', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--color-dark-blue);
+}
+
+.stat-description {
+    font-family: 'Navigo', sans-serif;
+    font-size: 1rem;
+    color: var(--color-dark-gray);
+}
