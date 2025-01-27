@@ -1,0 +1,56 @@
+/* /components/card-section/CardSection.css */
+.card-section {
+    background-color: #003366; /* Fundo azul */
+    padding: 50px 20px; /* Espaçamento interno */
+    display: flex;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Sempre 4 colunas */
+    gap: 20px; /* Espaço entre os cards */
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 1200px; /* Limita a largura máxima */
+}
+
+.card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%; /* Largura dinâmica conforme o grid */
+    height: 300px; /* Altura menor do card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem ao tamanho do card sem distorcer */
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-description {
+    font-size: 12px;
+    line-height: 1.4;
+}
