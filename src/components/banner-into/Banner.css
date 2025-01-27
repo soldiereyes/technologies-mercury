@@ -3,7 +3,7 @@
 .banner {
     height: 100vh;
     position: relative;
-    background-image: url('../../assets/images/banner-into-image.jpg');
+    background-image: url('../../../public/images/banner-into-image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
