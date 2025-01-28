@@ -1,0 +1,80 @@
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.contact-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #002366;
+    text-align: center;
+}
+
+.contact-box {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #2d3436;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.btn-contact {
+    background-color: #002366;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-contact:hover {
+    background-color: #001a4d;
+}
+
+.hours-info h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.hours-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.hours-list h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hours-list ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.hours-list li {
+    list-style: none;
+    color: #333;
+}
