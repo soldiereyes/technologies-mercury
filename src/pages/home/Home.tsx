@@ -7,10 +7,10 @@ import ContactSection from "../../components/contact-section/ContactSection.tsx"
 const Home: React.FC = () => {
     return (
         <div>
-            <Banner />
-            <Statistics />
-            <CardSection />
-            <HeroSection />
+            <Banner/>
+            <Statistics/>
+            <CardSection/>
+            <HeroSection/>
         </div>
     );
 };
