@@ -1,0 +1,23 @@
+.orders-section {
+    background: #f8f9fa;
+}
+
+.orders-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.orders-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.orders-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
