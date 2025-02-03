@@ -1,0 +1,49 @@
+.contact-banner {
+    background: url('../../../public/images/engineer-making-notes-standing-oilfield-him-oil-pump-jack.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: white;
+    color: #002366;
+    border: 2px solid white;
+}
