@@ -1,0 +1,61 @@
+.petroleum-section {
+    background: #f8f9fa;
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    max-width: 600px;
+}
+
+/* Ajuste da Imagem */
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.petroleum-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Ajuste do Botão */
+.cta-button {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(0, 0, 139, 0.6);
+    color: #002366;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 14px 36px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background: #002366;
+    color: white;
+}
+
+/* Ajuste no alinhamento da coluna de texto */
+.text-content {
+    padding-left: 40px;
+}
