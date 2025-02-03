@@ -1,0 +1,48 @@
+.info-banner {
+    background: #f8f9fa;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px; /* Ajustando tamanho máximo para manter o formato */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+.info-image {
+    width: 100%;
+    height: 300px; /* Mantendo formato retangular */
+    object-fit: cover; /* Garante que a imagem preencha corretamente */
+    border-radius: 8px;
+}
+
+.cta-button {
+    bottom: 20px; /* Ajustando para ficar dentro da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 2px solid #002366;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #002366;
+    color: white;
+}
+
+.info-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.info-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
