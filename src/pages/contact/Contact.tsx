@@ -1,9 +1,14 @@
+import ContactBanner from "../../components/contact-banner/ContactBanner.tsx";
+import LocationMap from "../../components/location/LocationMap.tsx";
+import InfoBanner from "../../components/info-banner/InfoBanner.tsx";
+
 const Contact: React.FC = () => {
     return (
-        <div className="container mt-5">
-            <h1>Contact</h1>
-            <p>Formulário e informações de contato...</p>
-        </div>
+        <>
+            <ContactBanner/>
+            <InfoBanner />
+            <LocationMap/>
+        </>
     );
 };
 
