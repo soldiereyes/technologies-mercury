@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer.tsx";
 import Home from "./pages/home/Home.tsx";
 import About from "./pages/about/About.tsx";
 import Services from "./pages/services/Services.tsx";
-import Orders from "./pages/orders/Orders.tsx";
+import Oders from "./pages/oders/Oders.tsx";
 import Contact from "./pages/contact/Contact.tsx";
 import ContactSection from "./components/contact-section/ContactSection.tsx";
 
@@ -17,7 +17,7 @@ const App: React.FC = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/services" element={<Services />} />
-                    <Route path="/orders" element={<Orders />} />
+                    <Route path="/orders" element={<Oders />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
                 <ContactSection/>
