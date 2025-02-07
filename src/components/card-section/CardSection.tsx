@@ -34,10 +34,10 @@ export const CardSection: React.FC = () => {
         <section className="card-section">
             <div className="card-container">
                 {cards.map((card, index) => (
-                    <div className="card" key={index}>
+                    <div className="card-into" key={index}>
                         <img src={card.image} alt={card.title} className="card-image" />
                         <div className="card-content">
-                            <h3 className="card-title">{card.title}</h3>
+                            <h3 className="card-into-title">{card.title}</h3>
                             <p className="card-description">{card.description}</p>
                         </div>
                     </div>
