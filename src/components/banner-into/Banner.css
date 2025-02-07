@@ -1,55 +1,74 @@
-/* src/components/Banner.css */
-
 .banner {
-    height: 100vh;
     position: relative;
-    background-image: url('../../../public/images/banner-into-image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: var(--color-white);
-    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    background: url('../../../public/images/banner-into-image.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0 5%;
 }
 
-.banner-overlay {
+.banner-into-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
 }
 
-
-.banner-content {
+.banner-into-content {
     position: relative;
     z-index: 2;
-    max-width: 600px;
+    max-width: 800px;
     text-align: left;
+    padding: 10% 0 5%;
 }
 
-.banner-title {
-    font-family: 'Navigo', sans-serif;
-    font-weight: bold;
-    font-size: 3.5rem;
-    line-height: 1.2;
+.banner-tagline {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #f1f1f1;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.banner-into-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.1;
     margin-bottom: 1rem;
+    color: #fff;
 }
 
 .banner-subtitle {
-    font-family: 'Navigo', sans-serif;
+    font-size: 1.3rem;
     font-weight: 300;
-    font-size: 1.25rem;
     line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #f1f1f1;
 }
 
-.banner .btn-primary {
-    background-color: var(--color-light-blue);
-    border-color: var(--color-light-blue);
+.cta-into-button {
+    background: linear-gradient(135deg, #d1a04a, #8c6e36);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 15px 40px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    min-width: 220px;
 }
 
-.banner .btn-primary:hover {
-    background-color: var(--color-dark-blue);
-    border-color: var(--color-dark-blue);
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 25px rgba(255, 255, 255, 0.3);
 }
